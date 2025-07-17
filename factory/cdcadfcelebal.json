@@ -1,0 +1,9 @@
+{
+	"name": "cdcadfcelebal",
+	"location": "southeastasia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "b8058724-b554-4587-b174-e4974d3580fa",
+		"tenantId": "27282fdd-4c0b-4dfb-ba91-228cd83fdf71"
+	}
+}

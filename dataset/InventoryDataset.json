@@ -1,0 +1,32 @@
+{
+	"name": "InventoryDataset",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDb_Linked",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "ProductID",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "Quantity",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "Location",
+				"type": "nvarchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "Inventory"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

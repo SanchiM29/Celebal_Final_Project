@@ -73,5 +73,7 @@ Latest data is available at: dbfs:/CDC_output/
 Regards,
 Sanchi
 
+**Note: My Azure for Students subscription has been automatically disabled after usage limit was reached. All configurations, pipelines, and resources were fully functional during development and have been documented with screenshots in this repository.**
+
 
 
